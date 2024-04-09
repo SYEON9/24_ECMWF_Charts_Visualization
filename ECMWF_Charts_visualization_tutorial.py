@@ -1,10 +1,6 @@
 
 
 
-
-#################################################################
-# STEP 00. package setting
-#################################################################
 """
 !pip install Magics
 !pip install MagPlus
@@ -19,6 +15,16 @@ from magpye import GeoMap
 from Magics.macro import *
 
 from variable_create import *
+
+#=================================================#
+#  Program: ECMWF Charts visualization tutorial
+#  Purpose: [차수예]"자율형 공동활용체계 구축을 위한 범용 수치예보모델 개발" 사업 중
+#           가시화 도구 시험
+#  Reference: ECMWF (https://charts.ecmwf.int/?facets=%7B%22Product%20type%22%3A%5B%5D%2C%22Range%22%3A%5B%22Medium%20%2815%20days%29%22%5D%2C%22Parameters%22%3A%5B%5D%2C%22Type%22%3A%5B%22Forecasts%22%5D%7D)
+#             Magics (https://github.com/ecmwf/notebook-examples/tree/master/visualisation)
+#  Author: Su-Yeon Kim
+#  Date: 2024.04.09
+#-------------------------------------------------#
 
 
 ####################################################################
